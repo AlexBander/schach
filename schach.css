@@ -1,0 +1,179 @@
+img {max-width:100%; height:auto; }
+
+ul {margin:0; 
+  padding:0;
+  width:100%;
+  list-style-type:none;
+  font-size:12pt;
+  text-align: center; 
+}
+
+ul li a {text-decoration:none;
+  color:#ffffff; 
+  padding:10.5px 11px;
+  margin-bottom:10px;
+  background-color:#63adff;
+  display:block;
+  border-radius:10px;
+}
+
+ul li a:visited {color:#ffffff;}
+
+ul li a:hover, ul li .current {color:black;
+  background-color:gray;}
+
+footer {background-color:#63adff;
+  clear:left;
+  color:#ffffff;
+  font-size:large;
+  font-style:italic;
+  font-weight:bolder;
+  padding-bottom:10px;
+  padding-top:10px;
+  text-align:center;
+  width: 100%;}
+  
+  
+  header {
+  color: #ffffff;
+  font-size: xx-large;
+  font-style:italic;
+  font-weight:bolder;
+  padding: 10px;
+  text-align:center;}
+
+
+    	body {
+    		color:#000000;
+    		font-family:Verdana, Geneva, sans-serif;
+    		margin:0px;}
+
+		header {
+			background-color: #63adff;
+			clear:left;
+			color:#ffffff;
+			font-size:large;
+			font-style:italic;
+			font-weight:bolder;
+			padding-bottom:10px;
+			padding-top:10px;
+			text-align:center;
+			width: 100%;}
+
+
+aside {float:left;
+  text-align:center;
+  width:25%;}
+  
+/*		aside {
+			bottom:10px;
+			background-color: transparent;
+			float:left;
+			margin: auto;
+			top: auto;
+			left: auto;
+			text-align:center;
+			width: 25%;}
+*/			
+			
+
+nav {margin:10px;
+  padding-bottom:20px;
+  padding-left:5px;
+  padding-right:5px;
+  padding-top:10px;
+  text-align:center;}
+
+
+
+main h1 {font-size: xx-large;
+  margin-bottom: 10px;
+  margin-top: 0px;}		
+
+#setzen {border: 1px solid grey;
+  border-radius:10px;
+  margin:20px;
+  padding-bottom:10px;
+  padding-left:20px;
+  padding-right:20px;
+  padding-top:10px;}
+
+article {
+  margin:20px;
+  padding-bottom:10px;
+  padding-left:20px;
+  padding-right:20px;
+  padding-top:10px;}nav {margin:10px;
+  padding-bottom:20px;
+  padding-left:5px;
+  padding-right:5px;
+  padding-top:10px;
+  text-align:center;}
+
+main {background-color:#ffffff;
+  color: #000000;
+  float:left;
+  width:75%;}
+
+
+
+		main {
+			float: right;
+			text-align:center;
+			width:75%;}
+
+		#hilfscontainer {
+			margin:0px auto;
+			max-width:1024px;}  
+			
+
+	
+		footer {
+			bottom:10px;
+			background-color: transparent;
+	  		clear: right;
+	 		color:blue;
+  			font-size:large;
+  			font-style:italic;
+  			font-weight:bolder;
+  			text-align:center;
+  			width: auto;}
+
+		#fusszeile{
+			position:fixed;
+			bottom:10px;
+			margin: auto;
+    		top: auto;
+    		text-align:center;
+  			width: 100%;}
+
+		table {
+			border-collapse: collapse;}
+
+		td { 
+			width: 50px; 
+			height: 50px; 
+			border: thin solid; 
+			text-align: center; 
+			font-size: 40px; }
+
+			tr:nth-child(even) td:nth-child(odd),
+			tr:nth-child(odd)  td:nth-child(even)
+			{
+				background-color:silver;
+			}
+			tr:nth-child(1) td:nth-child(n),tr:last-child td:nth-child(n),
+			tr:nth-child(n) td:nth-child(1),tr:nth-child(n) td:last-child
+			{
+				background-color: transparent;
+				border: #fffbfb;
+				font-size: 16px;
+			}
+
+		/*
+			tr:nth-child(odd) td:nth-child(odd) {background: silver;}
+			tr:nth-child(even) td:nth-child(even) {background: silver;}    
+		*/ 
+
+		code{ /* Größe für die Schachfigur un das Achtungzeichen*/ 
+			font-size: 48px;} 
